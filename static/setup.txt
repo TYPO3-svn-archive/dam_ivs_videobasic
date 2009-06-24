@@ -1,0 +1,32 @@
+#setup
+
+page.includeCSS.file1357 = EXT:dam_ivs_videobasic/res/css/style.css
+
+plugin.tx_damivsvideobasic_pi1 {
+	ampersand = xhtml
+	flashParams {
+		quality = high
+		allowscriptaccess = always
+		wmode = transparent
+		swliveconnect = true
+		allowfullscreen = true
+		scale = default
+	}
+	flashVars {
+		allowsmoothing = true
+		autoplay = false
+		buffer = 3
+		showtimecode = true
+		loop = true
+		controlcolour = 0xf4f1ec
+		scaleiffullscreen = true
+		showscalingbutton = true
+	}
+	videoTemplate (
+		<div>
+		###FLASHVIDEO###
+		<div class="video_title"><strong>###TITLE###:</strong> ###VIDEO_TITLE###</div>
+		<div class="video_description"><strong>###DESCRIPTION###:</strong> ###VIDEO_DESCRIPTION###</div>
+		</div>
+	)
+}

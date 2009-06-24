@@ -1,0 +1,11 @@
+  # cat=basic; type=string; label = URL to the encoding server
+urlServer =
+
+  # cat=basic; type=string; label = Project hash
+projectHash =
+
+  # cat=basic; type=int; label = Number of screenshots from video
+screenshots = 10
+
+  # cat=basic; type=int; label = Set the video width for embed flash (px)
+fixwidth = 352

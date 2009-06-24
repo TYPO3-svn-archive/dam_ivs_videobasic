@@ -1,0 +1,22 @@
+/* 
+    Document   : style.css
+    Created on : 18.05.2009, 15:00:00
+    Author     : Sebastian Siebert <ss@imagine-vs.de>
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.tx-damivsvideobasic-pi1 .video_left {
+	width: 100%;
+	text-align: left;
+}
+
+.tx-damivsvideobasic-pi1 .video_center {
+	width: 100%;
+	text-align: center;
+}
+
+.tx-damivsvideobasic-pi1 .video_right {
+	width: 100%;
+	text-align: right;
+}

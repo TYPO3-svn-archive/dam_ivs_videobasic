@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Labels for the extension 'dam_ivs_videobasic'</description>
+		<csh_table></csh_table>
+        <labelContext type="array">
+        </labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="filename">Filename</label>
+			<label index="size">Size</label>
+			<label index="status">Status</label>
+			<label index="notsubmitted">Not submitted</label>
+			<label index="wait">wait (encoding)</label>
+			<label index="encodingerror">encoding error</label>
+			<label index="ready">ready</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="filename">Dateiname</label>
+			<label index="size">Größe</label>
+			<label index="status">Status</label>
+			<label index="notsubmitted">Nicht übermittelt</label>
+			<label index="wait">wartend (encodiert)</label>
+			<label index="encodingerror">Fehler beim encodieren</label>
+			<label index="ready">fertig</label>
+		</languageKey>
+	</data>
+</T3locallang>

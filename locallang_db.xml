@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'dam_ivs_videobasic'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.CType_pi1.field_video">Video</label>
+			<label index="tx_dam.tx_damivsvideobasic_encode">Encode</label>
+			<label index="tx_dam.tx_damivsvideobasic_location">Location</label>
+			<label index="tx_dam.tx_damivsvideobasic_location.I.0">local</label>
+			<label index="tx_dam.tx_damivsvideobasic_screenshot">Screenshot</label>
+			<label index="tx_dam.tx_damivsvideobasic_streamdir">Directory (Stream)</label>
+			<label index="tx_dam.tx_damivsvideobasic_filenamestream">Filename (Stream)</label>
+			<label index="tx_dam.tx_damivsvideobasic_width">Width</label>
+			<label index="tx_dam.tx_damivsvideobasic_height">Height</label>
+			<label index="tx_dam.tx_damivsvideobasic_status">Status</label>
+			<label index="tx_dam.tx_damivsvideobasic_status.I.0">not submitted</label>
+			<label index="tx_dam.tx_damivsvideobasic_status.I.1">wait (encoding)</label>
+			<label index="tx_dam.tx_damivsvideobasic_status.I.2">encoding error</label>
+			<label index="tx_dam.tx_damivsvideobasic_status.I.3">ready</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tt_content.CType_pi1.field_video">Video</label>
+			<label index="tx_dam.tx_damivsvideobasic_encode">Encodieren</label>
+			<label index="tx_dam.tx_damivsvideobasic_location">Lokation</label>
+			<label index="tx_dam.tx_damivsvideobasic_location.I.0">lokal</label>
+			<label index="tx_dam.tx_damivsvideobasic_screenshot">Screenshot</label>
+			<label index="tx_dam.tx_damivsvideobasic_streamdir">Verzeichnis (Stream)</label>
+			<label index="tx_dam.tx_damivsvideobasic_filenamestream">Dateiname (Stream)</label>
+			<label index="tx_dam.tx_damivsvideobasic_width">Breite</label>
+			<label index="tx_dam.tx_damivsvideobasic_height">Höhe</label>
+			<label index="tx_dam.tx_damivsvideobasic_status">Status</label>
+			<label index="tx_dam.tx_damivsvideobasic_status.I.0">nicht übermittelt</label>
+			<label index="tx_dam.tx_damivsvideobasic_status.I.1">warten (encodiert gerade)</label>
+			<label index="tx_dam.tx_damivsvideobasic_status.I.2">Fehler beim Encodieren</label>
+			<label index="tx_dam.tx_damivsvideobasic_status.I.3">fertig</label>
+		</languageKey>
+	</data>
+</T3locallang>
